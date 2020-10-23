@@ -1,0 +1,82 @@
+:root{
+  --primaryColor:#2874f0;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body, a, ul, li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+#root {
+  font-size: 18px;
+  background-color:#f1f1f1;
+  min-height:100vh;
+  position: relative;
+}
+ul li {
+  list-style-type: none;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid {
+  display: grid;
+}
+.green-text{
+  color:green;
+}
+.red-text{
+  color:red;
+}
+.grey-text{
+  color:grey;
+}
+.small-text{
+  font-size:0.8rem;
+}
+.large-text{
+  font-size:1.8rem;
+}
+.box{
+  background-color:white;
+  border: 1px solid #d3d3d3;
+  margin:10px;
+}
+.primary-button{
+    padding: 18px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    border: none;
+    background: #ff9f00;
+    color: #fff;
+    text-transform: uppercase;
+    margin:10px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.cross{
+  text-decoration:line-through;
+  font-size:0.8rem;
+  color:grey;
+}
+.container{
+  max-width:1096px;
+  margin:10px auto;
+}
+.title{
+  text-align: center;
+  background-color: #2771cc;
+  max-width: 97%;
+  margin: 10px auto;
+  padding: 10px;
+  color: white;
+}
+

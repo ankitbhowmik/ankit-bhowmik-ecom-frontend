@@ -1,0 +1,37 @@
+.ankit-slider{
+	overflow-x:hidden;
+	position: relative;
+	width:100%;
+}
+.slider{
+	display:flex;
+	flex-direction: row no-wrap;
+}
+.slider > *{
+	min-width:100%;
+	min-height:150px;	
+	transition: 0.5s;
+}
+.prev-slide, .next-slide{
+	position: absolute;
+	top:0;
+	bottom:0;
+	min-width:50px;
+	max-width:3%;
+	color:white;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	background-color:transparent;
+	transition: 0.5s;
+}
+.prev-slide:hover, .next-slide:hover{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.3);
+}
+.prev-slide{
+	left:0;
+}	
+.next-slide{
+	right:0;
+}
